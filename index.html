@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<style>
+		*{
+			padding:0;
+			margin:0;
+		}
+		#obj{
+			width:750px;
+			/* height:1088px; */
+			height:auto;
+			margin:auto;
+			background-color: rgb(21,21,27);
+		}
+		#content{
+			width:690px;
+			/* height:1026px; */
+			height:auto;
+			background-color: rgb(25,25,33);
+			margin:auto;
+			border:1px solid rgb(25,25,33);
+			border-radius:32px 32px 0 0;
+		}
+		.center{
+			width:640px;
+			/* height:1026px; */
+			height:auto;
+			background-color: rgb(42,43,55);
+			margin:auto;
+			border:1px solid rgb(42,43,55);
+			border-radius:32px;
+		}
+		.title span:first-of-type{
+			color: rgb(255,255,255);
+			display:block;
+			font-size: 30px;
+			padding:57px 0 18px 25px;
+			letter-spacing: 2px;
+		}
+		.title span:last-of-type{
+			color: rgb(190,190,190);
+			display:block;
+			font-size: 20px;
+			padding:0 0 28px 25px;
+			letter-spacing: 1px;
+		}
+		.inner{
+			width:588px;
+			/* height:855px; */
+			height:1078px;
+			background-color: rgb(50,51,66);
+			margin:auto;
+			position:relative;
+			border:1px solid rgb(50,51,66);
+			border-radius:25px 25px 0 0;
+		}
+		.head{
+			padding:34px 0 0 33px;
+			/* background-color: red; */
+		}
+		.head span{
+			color: rgb(255,255,255);
+			font-size: 28px;
+			letter-spacing: 2px;
+			position:absolute;
+			left:141px;
+			top:63px;
+			/* background-color:red ; */
+		}
+		
+		.img{
+			width:300px;
+			height:385px;
+			margin:36px auto 0;
+			background: url('img/00.png');
+		}
+		.img div{
+			padding:250px auto 0;
+			/* background-color: red; */
+			position:relative;
+			left:70px;
+			top:290px;
+		}
+		.img span:first-of-type{
+			color: rgb(245,245,245);
+			font-size:22px;
+			letter-spacing: 2px;
+		}
+		.img span:last-of-type{
+			color: rgb(255,255,255);
+			font-size: 30px;
+			letter-spacing: 2px;
+		}
+		
+		.introduce{
+			margin:40px 0 50px 44px;
+		}
+		.introduce :first-child{
+			color: rgb(255,255,255);
+			font-size: 36px;
+			letter-spacing: 2px;
+		}
+		.introduce :last-child{
+			color: rgb(250,250,250);
+			font-size: 24px;
+			letter-spacing: 2px;
+			/* background-color: red; */
+			margin-top:22px;
+			margin-right: 44px;
+		}
+		.info{
+			margin:auto;
+			color: rgb(245,245,245);
+			font-size:22px;
+			width:416px;
+			height:155px;
+			display:flex;
+			justify-content:space-between;
+			/* background-color: aqua; */
+		}
+		.info h3{
+			margin-bottom:26px;
+		}
+		#bottom{
+			width:463px;
+			height:62px;
+			margin:auto;
+			color: rgb(96,96,96);
+			font-size:20px;
+			display:flex;
+			justify-content:space-between;
+			/* background-color: #0000FF; */
+		}
+	</style>
+	
+	<body>
+		<!-- 整个项目 -->
+		<div id="obj">
+			<!-- 内容区 -->
+			<div id="content">
+				<!-- 中间层 -->
+				<div class="center">
+					<!-- 标题 -->
+					<div class="title">
+						<span>子皮的星盘解读</span>
+						<span>由Pick星座进行测算</span>
+					</div>
+					<!-- 内层 -->
+					<div class="inner">
+						<!-- 头像 -->
+						<div class="head">
+							<a href="#"><img src="img/head.png" alt=""></a>
+							<!-- <div>子皮</div> -->
+							<span>子皮</span>
+						</div>
+						<!-- 星座图 -->
+						<div class="img">
+							<div>
+								<span>太阳星座</span>
+								<span>摩羯</span>
+							</div>
+						</div>
+						<!-- 介绍 -->
+						<div class="introduce">
+							<div>积极乐观的冒险家</div>
+							<div>在人生的竞技场上，你是长跑选手。你全身心瞄准一个目标
+							，勤勉自律地练习，谨慎地安排每一段路程，
+							坚持是支撑你接近成功的要诀。长跑是一个人的孤独自处，
+							你的企图心只能靠自己实现。路上的风景，只有你知道；
+							挑战身体极限的方法，只有你能掌控；到达终点的喜悦，也只属于你。</div>
+						</div>
+						<!-- 星座信息 -->
+						<div class="info">
+							<div>
+								<h3>星座属性</h3>
+								<a href="#" alt="">
+									<img src="img/02.png">
+								</a>
+							</div>
+							<div>
+								<h3>星座模式</h3>
+								<a href="#" alt="">
+									<img src="img/03.png">
+								</a>
+							</div>
+							<div>
+								<h3>命主星</h3>
+								<a href="#" alt="">
+									<img src="img/01.png">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 底部 -->
+				<div id="bottom">
+					<span>火象星座</span>
+					<span>变相星座</span>
+					<span>木星</span>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
